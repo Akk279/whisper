@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "build": "npm tsc -b"
+    "build": "npx tsc -b",
+    "start": "node dist/index.js",
+    "dev":"npm run build && npm run start"
   },
   "keywords": [],
   "author": "",
@@ -15,6 +17,7 @@
     "tailwindcss": "^4.0.15"
   },
   "dependencies": {
+    "@types/express": "^5.0.1",
     "express": "^4.21.2",
     "socket.io": "^4.8.1",
     "typescript": "^5.8.2"
