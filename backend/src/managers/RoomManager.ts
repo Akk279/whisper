@@ -47,7 +47,7 @@
 //     return GLOBAL_ROOM_ID++;
 //   }
 // }
- import { User, UserManage } from "./UserManger";
+ import { User, UserManager } from "./UserManager";
 
  let GLOBAL_ROOM_ID = 1;
 
